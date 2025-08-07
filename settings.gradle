@@ -1,2 +1,2 @@
 rootProject.name = 'my-project'
-include('argis-java-toolkit', 'argis-java-toolkit-examples')
+include('arcgis-java-toolkit', 'arcgis-java-toolkit-examples')
