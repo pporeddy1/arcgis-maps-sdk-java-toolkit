@@ -1,14 +1,10 @@
 plugins {
-    id 'base'
     id 'application'
     id 'org.openjfx.javafxplugin' version '0.0.13'
     id "org.sonarqube" version "6.2.0.5505"
 }
 
-wrapper {
-  gradleVersion = '8.6'
-  distributionType = Wrapper.DistributionType.ALL
-}
+
 
 sonar {
   properties {
