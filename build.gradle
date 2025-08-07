@@ -1,6 +1,13 @@
 plugins {
     id "org.sonarqube" version "6.2.0.5505"
+    id 'base'
 }
+
+wrapper {
+  gradleVersion = '8.6'
+  distributionType = Wrapper.DistributionType.ALL
+}
+
 sonar {
   properties {
     property "sonar.projectKey", "pporeddy1_arcgis-maps-sdk-java-toolkit"
